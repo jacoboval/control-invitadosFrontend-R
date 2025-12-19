@@ -1,6 +1,6 @@
 //const API_URL = "https://control-invitados-backend.onrender.com";
 
-const API_URL = "misxv-leslie-service.up.railway.app:8080";
+const API_URL = "misxv-leslie-service.up.railway.app";
 async function cargarInvitados() {
     const response = await fetch(`${API_URL}/admin/listarInvitados`);
     const invitados = await response.json();
